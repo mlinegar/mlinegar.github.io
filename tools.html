@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Software &amp; Tools — Mitchell Linegar</title>
+  <meta name="description" content="Open-source software and public tools by Mitchell Linegar: treepo and ElectionBot.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container">
+      <a href="index.html" class="site-title">Mitchell Linegar</a>
+      <button class="nav-toggle" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="site-nav">
+        <a href="research.html">Research</a>
+        <div class="nav-dropdown">
+          <a href="tools.html" class="active">Software ▾</a>
+          <div class="nav-dropdown-content">
+            <a href="https://github.com/mlinegar/treepo" target="_blank" rel="noopener">treepo</a>
+            <a href="https://electionbot.chat" target="_blank" rel="noopener">ElectionBot</a>
+            <a href="https://electionbot.chat/article" target="_blank" rel="noopener">Generate Anti-Misinfo Articles</a>
+            <a href="https://electionbot.chat/domains?agent=single" target="_blank" rel="noopener">Anti-Misinfo Chatbots</a>
+          </div>
+        </div>
+        <a href="files/linegar_cv.pdf" target="_blank" rel="noopener">CV</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <div class="page-header">
+      <h1>Software &amp; Tools</h1>
+    </div>
+
+    <section class="section">
+      <h2>Software</h2>
+      <div class="tools-grid">
+        <div class="tool-card">
+          <h3>treepo</h3>
+          <p>
+            A Python package for learning and auditing compression trees. It summarizes long
+            documents leaf by leaf, merges the summaries up a tree, and audits whether the
+            summaries preserve what a measurement needs. It implements the methods in
+            “What Makes a Good Summary? Learning Sufficient Representations at Scale.”
+          </p>
+          <a href="https://github.com/mlinegar/treepo" target="_blank" rel="noopener" class="btn">View on GitHub →</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>ElectionBot</h2>
+      <p>
+        AI tools for countering election misinformation, developed for my research and used in
+        preregistered national experiments with U.S. voters.
+        <a href="https://electionbot.chat" target="_blank" rel="noopener">Visit electionbot.chat →</a>
+      </p>
+
+      <div class="tools-grid">
+        <div class="tool-card">
+          <h3>Generate Anti-Misinfo Articles</h3>
+          <p>
+            An AI-powered tool that generates evidence-based articles designed to counter
+            common misinformation narratives. Built to support journalists, fact-checkers,
+            and researchers working on election integrity.
+          </p>
+          <a href="https://electionbot.chat/article" target="_blank" rel="noopener" class="btn">Visit Tool →</a>
+        </div>
+
+        <div class="tool-card">
+          <h3>Anti-Misinfo Chatbots</h3>
+          <p>
+            Interactive chatbots that provide real-time, evidence-based responses to
+            misinformation claims. Deploy domain-specific conversational agents trained
+            to address false narratives with accurate information.
+          </p>
+          <a href="https://electionbot.chat/domains?agent=single" target="_blank" rel="noopener" class="btn">Visit Tool →</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      &copy; 2026 Mitchell Linegar
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

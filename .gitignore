@@ -1,0 +1,13 @@
+# Original high-res photo (29MB)
+CIT_HSS_MitchellLinegar_10092025_VAN_3243_2(4).jpg
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Full-size headshot originals (site uses assets/headshot.jpg)
+linegar_headshot.jpg
+linegar_headshot_small.jpeg
+
+# Local Claude Code settings
+.claude/settings.local.json
