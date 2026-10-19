@@ -80,7 +80,7 @@
     "venue": "",
     "abstract": "Measurement on long documents is hard because hierarchical summarization can destroy the task signal before the judgment is ever made. We introduce C-TreePO (Compression-Tree Preference Optimization), which treats recursive summarization as a learned mergeable sketch: split the document into contiguous leaves, summarize each leaf, merge sibling summaries pairwise up a tree, and judge the root summary in place of the document. Three local laws (leaf sufficiency, idempotence, and merge consistency) state what mergeability means for a learned summarizer: every node summary must receive the same task-oracle value as the raw span below it, and an induction carries that consistency from leaves to root. Labels, rewards, or preferences that depend on the document only through that value can then be collected on summaries instead of raw documents. Most judgments social scientists care about can be expressed as preferences between documents, so preference optimization over long documents becomes preference optimization over their compression trees. The laws are also observable: realized nodes can be sampled with logged inclusion probabilities and their raw spans scored alongside their summaries. Design-based supervised learning then applies twice, once to align an approximate oracle’s labels with the oracle and once to align node summaries with those approximate labels, giving design-based estimates of violation rates and mean oracle distortion. We use party-position measurement from Manifesto Project text as a running example, substituting document-level observations for node-level annotation: a prompt-only C-Tree over one open-weight model agrees with expert surveys as closely as the same model reading each document whole (correlation averaged over six policy dimensions, 0.787 versus 0.771 for the uncompressed read), and the agreement is nearly constant as leaves grow from about a paragraph to tens of pages. Hand-coded quasi-sentence labels then induce an oracle value at every tree node; this census validates the sampled audit and shows that learned merges compose where the coded signal is dense and fail where it runs thin.",
     "url": "",
-    "pdf": "files/Linegar_What_Makes_a_Good_Summary.pdf",
+    "pdf": "https://www.dropbox.com/scl/fi/kb3rhl52gof09xd5yw5lr/Linegar_What_Makes_a_Good_Summary.pdf?rlkey=i50mdgqzfet18irr677h5rl1s&raw=1",
     "selected": false
   },
   {
@@ -90,9 +90,9 @@
     "year": null,
     "category": "works-in-progress",
     "venue": "",
-    "abstract": "",
+    "abstract": "Can conversations with generative AI (GenAI) strengthen confidence in institutions and counter misinformation? We test GenAI-assisted prebunking in a two-wave experiment with 3,886 U.S. registered voters. Respondents receive two neutral placebo chats, one prebunking chat and one placebo chat, or two prebunking chats before reading election and vaccine rumors. Conversational prebunking increases institutional confidence. Two prebunking chats reduce distrust of vaccine institutions by 0.27 points on a 0–10 scale, and institutional distrust among initially distrustful respondents by 0.36 points. Average effects on rumor confidence are small, so an evaluation based on rumor belief alone would miss this benefit. Neither outcome shows an overall effect at a median 24-day follow-up. These findings extend GenAI-assisted prebunking from elections to public health and establish institutional confidence as a distinct outcome for evaluating it.",
     "url": "",
-    "pdf": "",
+    "pdf": "https://www.dropbox.com/scl/fi/36in1l4805lebgp5pzge4/Linegar_et_al_Prebunking_Conversations.pdf?rlkey=adva7ndfqoshunmzk02ivhd8s&raw=1",
     "selected": false
   },
   {
@@ -104,7 +104,7 @@
     "venue": "Revise and resubmit, Political Science Research and Methods",
     "abstract": "How can we improve trust in democracy and elections? Building on inoculation theory, we test whether generative artificial intelligence (GAI) can support interventions against election misinformation. We present GAI-generated prebunking materials either as static articles or interactive chatbot conversations. In a two-wave pre-registered experiment with U.S. registered voters (Wave 1: n=5,432, October 24-November 4, 2024; Wave 2: n=4,385, November 11-15, 2024), we measure effects on two outcomes: belief in false election rumors and trust in election integrity. Both interventions significantly reduce confidence in election rumors immediately and at recontact. They also increase trust in elections before the election, with chatbots showing larger point estimates on this broader measure. We also find that lower-cost static text interventions perform comparably to chatbots for reducing rumor belief. Overall, these results suggest that GAI-assisted prebunking can be a scalable tool for reducing rumor confidence and supporting election confidence under real-world electoral conditions.",
     "url": "https://lcssp.caltech.edu/research/ai-authored-prebunking",
-    "pdf": "https://lcssp.caltech.edu/documents/34919/ElectionBot__V2__1.pdf",
+    "pdf": "https://www.dropbox.com/scl/fi/ujo9jl9l4eysnq3mcoe04/Linegar_et_al_AI_Authored_Prebunking.pdf?rlkey=bcma9n2xvms19ljsmcw1hzkfl&raw=1",
     "selected": true
   },
   {
@@ -114,9 +114,9 @@
     "year": null,
     "category": "working-papers",
     "venue": "Under review, Political Behavior",
-    "abstract": "",
+    "abstract": "Misinformation continues to shape American political behavior, spreading widely during elections, public health emergencies, and major news cycles. This study investigates which groups in the American electorate are most susceptible to misinformation by using the Misinformation Susceptibility Test (MIST) index, a validated measure based on how people respond to news headlines. Using a large, nationally representative survey of 4,293 U.S. registered voters fielded in the fall of 2024, we analyze how susceptibility varies by age, gender, education, political affiliation, and ideology in the context of a contentious presidential election. Our study updates previous analyses of misinformation susceptibility, estimating this important concept during the context of the 2024 presidential election. We find that while many Americans accurately identify false claims, a significant portion struggles to do so, especially on politically charged topics. Regression models show that susceptibility is not evenly distributed: Republicans and conservative respondents are more likely to misidentify factual statements as false, especially on items aligned with their ideological views. In contrast, Democrats and liberals tend to be less likely to misidentify factual statements as false using this methodology, especially on items involving public health and political narratives. We also observe a change in information discernment, with the overall sample being both more distrustful and naive than in 2020. Partisan differences in information discernment show that Republicans and conservatives are more distrustful on average as compared to Democrats and liberals, perhaps reflecting increases in partisan elite rhetoric and partisan framing of the topics in the misinformation questionnaire. In general, this analysis reveals that susceptibility to misinformation might be more likely among certain groups, providing insight into how misinformation intervention strategies can be tailored.",
     "url": "",
-    "pdf": "",
+    "pdf": "https://www.dropbox.com/scl/fi/ka11l82mdn12bgbwjgj4p/Chang_et_al_Misinformation_Susceptibility.pdf?rlkey=byzku80xpm7517fnzoxpd2jr8&raw=1",
     "selected": false
   },
   {
